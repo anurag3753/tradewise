@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
     # Get stock quotes
     start_date = "2024-03-15"
-    end_date = "2011-04-15"
+    end_date = "2024-04-15"
     stock_quotes = reader.get_stock_quotes(stocks_list, start_date, end_date)
 
     # Create StockAnalyzer instance
