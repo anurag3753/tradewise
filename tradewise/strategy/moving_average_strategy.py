@@ -48,9 +48,9 @@ class MovingAverageStrategy(BaseStrategy):
 
         # Determine buy/sell signals based on strategy rules
         if (dma_long > dma_medium > dma_short) and (close < dma_short):
-            signals.append({"date": date, "action": "Buy"})
+            signals.append({"date": date, "action": "Buy", "price": close})
         elif (dma_long < dma_medium < dma_short) and (close > dma_short):
-            signals.append({"date": date, "action": "Sell"})
+            signals.append({"date": date, "action": "Sell", "price": close})
 
         return signals
 
