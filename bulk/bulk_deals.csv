@@ -1,0 +1,9 @@
+sno,date,stock,seller,discount_percentage,discount_price,cmp,deal_size,bulk_price,traded,exchange,open,high,low,close,database_update,open_mkt
+1,19-Jun-24,INDUSTOWER,Vodafone,10,310,344.55,8500,311.4,yes,NSE,329.1,341.95,311.4,334,no,yes
+2,25-Jul-24,RBLBANK,EQT AB,5,226,237,1000,228,yes,BSE,230.55,233.3,228,230.4,no,yes
+3,26-Jul-24,SOBHA,Anamudi,6,1740,1850,850,1778.75,no,BSE,1830,1831.35,1778.75,1792.35,no,yes
+4,30-Jul-24,PNBHOUSING,Carlyle,4.5,755,794,1000,775,no,BSE,781.6,788.05,775,779.35,no,yes
+5,9-Aug-24,Nexus Select Trust,Blackstone,6.15,135,144,1000,136,no,BSE,140.4,140.4,136,137.1,no,yes
+6,21-Aug-24,PNBHOUSING,General Atlantic,4.5,775,811,1000,826,no,NSE,827,909,826,892.85,no,no
+7,21-Aug-24,CYIENTDLM,Cyient,5,748.65,788,900,762.1,no,BSE,766.5,790,762.1,776.1,no,yes
+8,29-Aug-24,INDIGO,Rakesh Gangwal,5.5,4593,4863,11000,4716.4,no,BSE,4740,4876.4,4714.9,4758.95,no,yes
