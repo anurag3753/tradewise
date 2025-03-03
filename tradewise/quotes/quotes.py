@@ -40,7 +40,7 @@ class StockReader:
         stock_quotes = {}
         for stock in stocks_list:
             try:
-                df = yf.download(stock, start=start_date, end=end_date, progress=False)
+                df = yf.download(stock, start=start_date, end=end_date, progress=False, multi_level_index=False)
                 stock_quotes[stock] = df
             except Exception as e:
                 print(f"Failed to fetch quotes for {stock}: {e}")
